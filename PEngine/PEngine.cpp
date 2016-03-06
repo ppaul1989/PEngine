@@ -3,11 +3,12 @@
 
 #include "stdafx.h"
 #include "../PEngine_Core/PEngine_Core.h"
+#include "../PEngine_Core/PEngine_Application.h"
 
 
 int main()
 {
-	CPEngine_Core *pEngine = new CPEngine_Core();
+	PEngine_Application *pEngine = PEngine_Application::getInstance();
     return 0;
 }
 
